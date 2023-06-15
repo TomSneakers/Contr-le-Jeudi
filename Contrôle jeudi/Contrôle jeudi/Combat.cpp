@@ -9,21 +9,10 @@
 #include <string>
 #include <iostream>
 using namespace std;
-namespace Combat {
-
-    Boxeurs::Combat(string& _niveau) : niveau(_niveau) {
-        std::cout << "Constructeur Combat : " << niveau << std::endl;
-    }
-
-    Combat::~Combat() {
-        std::cout << "Destructeur Combat : " << niveau << std::endl;
-    }
-
-    std::string Combat::GetNiveau() {
-        return niveau;
-    }
-
-} // namespace Combat
+namespace Combats{
 
 
-#endif
+
+
+
+}

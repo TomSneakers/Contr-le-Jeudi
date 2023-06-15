@@ -9,15 +9,19 @@
 #define Combat_hpp
 #include <string>
 #include <stdio.h>
+#include "Boxeur.hpp"
 using namespace std;
-namespace Boxeurs{
+namespace Combats{
     class Combat {
     private:
         string niveau;
     public:
-        Combat(string& _niveau);
+        Combat(string niveau);
         ~Combat();
-        string GetNiveau();
+        
+        Boxeurs::Boxeur* GetCoinBleu();
+        Boxeurs::Boxeur* GetCoinRouge();
+        string SetCoinBleu
     };
 
 }

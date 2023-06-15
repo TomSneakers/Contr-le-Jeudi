@@ -22,11 +22,11 @@ namespace Boxeurs {
         double poids;
 
     public:
-        Boxeur(string& _nom, double _poids);
+        Boxeur(string nom, double poids);
         ~Boxeur();
 
-        string GetNom() const;
-        double GetPoids() const;
+        string GetNom() ;
+        double GetPoids() ;
         void SetPoids(double _poids);
     };
 
