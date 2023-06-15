@@ -19,9 +19,20 @@ namespace Combats{
         Combat(string niveau);
         ~Combat();
         
+        
+        //coins
         Boxeurs::Boxeur* GetCoinBleu();
         Boxeurs::Boxeur* GetCoinRouge();
-        string SetCoinBleu
+        
+        
+        //Setter
+        string SetCoinBleu(Boxeurs::Boxeur* boxeur);
+        string SetCoinRouge(Boxeurs::Boxeur* boxeur);
+        
+        //vainqueur
+        Boxeurs::Boxeur* GetVainqueur();
+        string DesignerVainqueur( Boxeurs::Boxeur* boxeur);
+
     };
 
 }

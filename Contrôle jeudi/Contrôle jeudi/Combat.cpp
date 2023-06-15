@@ -8,8 +8,13 @@
 #include "Combat.hpp"
 #include <string>
 #include <iostream>
+
+#define TRACE
+
 using namespace std;
 namespace Combats{
+
+Combat::Combat(string niveau);
 
 
 
