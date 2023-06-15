@@ -32,12 +32,12 @@ int main() {
     combat_1.SetCoinBleu(&boxeur_1);
     combat_1.SetCoinRouge(boxeur_2);
 
-    cout <<  "Le combat de niveau" << combat_1.GetNiveau() <<" (adresse: "<< &combat_1<< ")"<< combat_1.GetCoinBleu()->GetNom() <<endl;
-    
-    cout << "delete boxeur_2" << endl;
+    cout <<  "Le combat de niveau " << combat_1.GetNiveau() <<" (adresse: "<< &combat_1<< ")"<< combat_1.GetCoinBleu()->GetNom() <<endl <<endl <<endl<<endl;
+    cout << "Boxeur dans le coin rouge : " << combat_1.GetCoinRouge()->GetNom()<< endl<<endl;
+    cout << "delete boxeur_2" << endl <<endl;
     delete boxeur_2;
+    
+
     cout << "--Fin--" << endl <<endl;
-    
-    
     
 }

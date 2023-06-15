@@ -13,6 +13,7 @@
 
 #include <string>
 
+
 namespace Combats {
 
     class Combat {
@@ -20,20 +21,22 @@ namespace Combats {
         string niveau;
         Boxeurs::Boxeur* coinBleu;
         Boxeurs::Boxeur* coinRouge;
+        Boxeurs::Boxeur* vainqueur;
 
     public:
-        Combat(const string& _niveau);
+        Combat(const std::string& _niveau);
         ~Combat();
 
-        string GetNiveau() const;
+        std::string GetNiveau() const;
 
         void SetCoinBleu(Boxeurs::Boxeur* boxeur);
         Boxeurs::Boxeur* GetCoinBleu() const;
 
         void SetCoinRouge(Boxeurs::Boxeur* boxeur);
         Boxeurs::Boxeur* GetCoinRouge() const;
+
+        Boxeurs::Boxeur* DesignerVainqueur(const string& couleurCoin);
     };
 
 }
-
 #endif /* COMBAT_HPP */
