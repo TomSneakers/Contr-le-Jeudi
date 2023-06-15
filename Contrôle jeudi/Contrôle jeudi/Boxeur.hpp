@@ -10,20 +10,26 @@
 
 #include <stdio.h>
 #include <iostream>
+
+
 #include <string>
 using namespace std;
-
 namespace Boxeur {
 
-class Boxeur{
-private:
-    string nom;
-    double poids;
-public:
-    string GetNom() {return nom;};
-    double GetPoids();
-    double SetPoids (string& poids);
-};
+    class Boxeur {
+    private:
+        string nom;
+        double poids;
+
+    public:
+        Boxeur(const string& _nom, double _poids);
+        ~Boxeur();
+
+        string GetNom() const;
+        double GetPoids() const;
+        void SetPoids(double _poids);
+    };
+
 }
 
-#endif /* Boxeur_hpp */
+#endif /* BOXEUR_HPP */

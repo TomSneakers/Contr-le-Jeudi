@@ -6,9 +6,16 @@
 //
 
 #include <iostream>
+#include "Boxeur.hpp"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+
+using namespace std;
+int main() {
+    cout <<"--DEBUT--" << endl<<endl;
+
+    
+    cout << "--Fin--" << endl <<endl;
+
     return 0;
 }
+
