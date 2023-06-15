@@ -10,10 +10,10 @@
 using namespace std;
 namespace Boxeur {
 //Constructeur
-Boxeur::Boxeur(const string& _nom, double _poids) : nom(_nom), poids(_poids) {
+Boxeur::Boxeur(const std::string& _nom, double _poids) : nom(_nom), poids(_poids) {
         cout << "Constructeur Boxeur : " << nom << endl;
     }
-
+// destructeur de Boxeur
     Boxeur::~Boxeur() {
         cout << "Destructeur Boxeur : " << nom << endl;
     }
@@ -22,6 +22,15 @@ Boxeur::Boxeur(const string& _nom, double _poids) : nom(_nom), poids(_poids) {
         return nom;
     }
 
-    
-
+    double Boxeur::GetPoids() const {
+        return poids;
     }
+
+    void Boxeur::SetPoids(double _poids) {
+        poids = _poids;
+    }
+
+}
+
+
+
