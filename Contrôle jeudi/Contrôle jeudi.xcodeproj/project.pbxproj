@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		BC7B5CD42A3B311C00315090 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BC7B5CD32A3B311C00315090 /* main.cpp */; };
 		BC9A00832A3B332400E115BD /* Boxeur.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BC9A00812A3B332400E115BD /* Boxeur.cpp */; };
+		BC9A00862A3B41A800E115BD /* Combat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BC9A00842A3B41A800E115BD /* Combat.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		BC7B5CD32A3B311C00315090 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		BC9A00812A3B332400E115BD /* Boxeur.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Boxeur.cpp; sourceTree = "<group>"; };
 		BC9A00822A3B332400E115BD /* Boxeur.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Boxeur.hpp; sourceTree = "<group>"; };
+		BC9A00842A3B41A800E115BD /* Combat.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Combat.cpp; sourceTree = "<group>"; };
+		BC9A00852A3B41A800E115BD /* Combat.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Combat.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				BC7B5CD32A3B311C00315090 /* main.cpp */,
 				BC9A00812A3B332400E115BD /* Boxeur.cpp */,
 				BC9A00822A3B332400E115BD /* Boxeur.hpp */,
+				BC9A00842A3B41A800E115BD /* Combat.cpp */,
+				BC9A00852A3B41A800E115BD /* Combat.hpp */,
 			);
 			path = "Contrôle jeudi";
 			sourceTree = "<group>";
@@ -124,6 +129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC9A00862A3B41A800E115BD /* Combat.cpp in Sources */,
 				BC9A00832A3B332400E115BD /* Boxeur.cpp in Sources */,
 				BC7B5CD42A3B311C00315090 /* main.cpp in Sources */,
 			);
