@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BC7B5CD42A3B311C00315090 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BC7B5CD32A3B311C00315090 /* main.cpp */; };
+		BC9A00832A3B332400E115BD /* Boxeur.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BC9A00812A3B332400E115BD /* Boxeur.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		BC7B5CD02A3B311C00315090 /* Contrôle jeudi */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Contrôle jeudi"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC7B5CD32A3B311C00315090 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		BC9A00812A3B332400E115BD /* Boxeur.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Boxeur.cpp; sourceTree = "<group>"; };
+		BC9A00822A3B332400E115BD /* Boxeur.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Boxeur.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				BC7B5CD32A3B311C00315090 /* main.cpp */,
+				BC9A00812A3B332400E115BD /* Boxeur.cpp */,
+				BC9A00822A3B332400E115BD /* Boxeur.hpp */,
 			);
 			path = "Contrôle jeudi";
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC9A00832A3B332400E115BD /* Boxeur.cpp in Sources */,
 				BC7B5CD42A3B311C00315090 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
