@@ -27,6 +27,15 @@ Combat::Combat(string niveau){
 string Combat::GetNiveau(){
     return this->niveau;
 }
+void Combat::SetCoinBleu(Boxeurs::Boxeur* coinBleu){
+    this->coinBleu = coinBleu;
+}
+void Combat::SetCoinRouge(Boxeurs::Boxeur* coinRouge)
+{
+    this->coinRouge = coinRouge;
+}
+
+
 
 
 
@@ -37,4 +46,15 @@ Combat::~Combat(){
     cout << "Destructeur combat : " << this->niveau << endl;
     
 }
+
+
+//verifier
+
+string Combats::Combat::VerifierCombat()
+{
+    string tmp= "le boxer est au niveau: " + this->niveau;
+   
+}
+
+
 }

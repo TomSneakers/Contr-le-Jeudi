@@ -16,26 +16,29 @@ namespace Combats{
     private:
         string niveau;
         //Commencement de l'association
-        Boxeurs::Boxeur* coicoinBleu= nullptr;
+        Boxeurs::Boxeur* coinBleu = nullptr;
+        Boxeurs::Boxeur* coinRouge = nullptr;
+
     public:
         Combat(string niveau);
         ~Combat();
         string GetNiveau();
-        
+        string VerifierCombat();
         
         //coins
         Boxeurs::Boxeur* GetCoinBleu();
         Boxeurs::Boxeur* GetCoinRouge();
         
-        
+        Combat* SetCombat(Combat* Combat);
+        Combat* SetBoxeur(Combat* Boxeur);
         
         //Setter
-        string SetCoinBleu(Boxeurs::Boxeur* boxeur);
-        string SetCoinRouge(Boxeurs::Boxeur* boxeur);
+        void SetCoinBleu(Boxeurs::Boxeur* boxeur);
+        void SetCoinRouge(Boxeurs::Boxeur* boxeur);
         
         //vainqueur
         Boxeurs::Boxeur* GetVainqueur();
-        string DesignerVainqueur( Boxeurs::Boxeur* boxeur);
+        void DesignerVainqueur( Boxeurs::Boxeur* boxeur);
 
     };
 
