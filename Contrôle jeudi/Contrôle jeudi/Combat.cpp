@@ -13,19 +13,28 @@
 
 using namespace std;
 namespace Combats{
+
+
 //contructeur
 Combat::Combat(string niveau){
     this-> niveau = niveau;
 }
+
+
+
+
 //setter
 string Combat::GetNiveau(){
     return this->niveau;
 }
 
+
+
+
 //Destructeur
 Combat::~Combat(){
     
-    cout << "Destructeur Boxeur : " << this->niveau << endl;
+    cout << "Destructeur combat : " << this->niveau << endl;
     
 }
 }

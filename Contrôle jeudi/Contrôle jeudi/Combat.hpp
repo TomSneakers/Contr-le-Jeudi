@@ -15,14 +15,18 @@ namespace Combats{
     class Combat {
     private:
         string niveau;
+        //Commencement de l'association
+        Boxeurs::Boxeur* coicoinBleu= nullptr;
     public:
         Combat(string niveau);
         ~Combat();
         string GetNiveau();
         
+        
         //coins
         Boxeurs::Boxeur* GetCoinBleu();
         Boxeurs::Boxeur* GetCoinRouge();
+        
         
         
         //Setter
