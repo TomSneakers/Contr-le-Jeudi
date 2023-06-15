@@ -21,7 +21,7 @@ Combat::~Combat() {
 std::string Combat::GetNiveau() {
     return niveau;
 }
-
+//stter
 void Combat::SetCoinBleu(Boxeurs::Boxeur* boxeur) {
     coinBleu = boxeur;
 }
@@ -29,7 +29,7 @@ void Combat::SetCoinBleu(Boxeurs::Boxeur* boxeur) {
 Boxeurs::Boxeur* Combat::GetCoinBleu()  {
     return coinBleu;
 }
-
+//setter
 void Combat::SetCoinRouge(Boxeurs::Boxeur* boxeur) {
     coinRouge = boxeur;
 }
@@ -37,6 +37,7 @@ void Combat::SetCoinRouge(Boxeurs::Boxeur* boxeur) {
 Boxeurs::Boxeur* Combat::GetCoinRouge()  {
     return coinRouge;
 }
+//vainqueur
 
 Boxeurs::Boxeur* Combat::DesignerVainqueur(string couleurCoin) {
     if (couleurCoin == "bleu") {
