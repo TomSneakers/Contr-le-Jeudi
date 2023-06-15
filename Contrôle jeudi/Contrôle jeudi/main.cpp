@@ -12,8 +12,13 @@
 using namespace std;
 int main() {
     cout <<"--DEBUT--" << endl<<endl;
+    Boxeur::Boxeur boxeur("Mike Tyson", 100.5);
+    cout << "Nom du boxeur : " << boxeur.GetNom()<< endl;
+   
 
     
+
+        
     cout << "--Fin--" << endl <<endl;
 
     return 0;

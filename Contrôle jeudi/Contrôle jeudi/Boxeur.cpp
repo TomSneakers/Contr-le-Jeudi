@@ -7,10 +7,21 @@
 
 #include "Boxeur.hpp"
 #include <iostream>
-
+using namespace std;
 namespace Boxeur {
+//Constructeur
+Boxeur::Boxeur(const string& _nom, double _poids) : nom(_nom), poids(_poids) {
+        cout << "Constructeur Boxeur : " << nom << endl;
+    }
 
-Boxeur::Boxeur(const std::string& _nom, double _poids) : nom(_nom), poids(_poids) {
-    std::cout << "Constructeur Boxeur : " << nom << std::endl;
-}
-}
+    Boxeur::~Boxeur() {
+        cout << "Destructeur Boxeur : " << nom << endl;
+    }
+
+    string Boxeur::GetNom() const {
+        return nom;
+    }
+
+    
+
+    }
