@@ -7,7 +7,9 @@
 
 #include <iostream>
 #include "Boxeur.hpp"
+#include "Combat.hpp"
 using namespace Boxeurs;
+using namespace Combats;
 using namespace std;
 int main() {
     cout <<"--DEBUT--" << endl<<endl;
@@ -21,7 +23,10 @@ int main() {
     boxeur_2 = new Boxeur("Box_2", 78.0);
     cout << "Adresse de boxeur_2 : " << boxeur_2 << endl;
     cout << "Nom de boxeur_2 : " << boxeur_2->GetNom() <<endl;
-        
+    
+    Combat combat_1("4/8");
+    cout <<  "Le combat de niveau" << combat_1.GetNiveau()<< endl;
+    
     cout << "delete boxeur_2" << endl;
     delete boxeur_2;
     cout << "--Fin--" << endl <<endl;
