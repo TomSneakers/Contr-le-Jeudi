@@ -6,55 +6,36 @@
 //
 
 #include "Combat.hpp"
-#include <string>
 #include <iostream>
 
-#define TRACE
+namespace Combats {
 
-using namespace std;
-namespace Combats{
+    Combat::Combat(const std::string& _niveau) : niveau(_niveau), coinBleu(nullptr), coinRouge(nullptr) {
+        std::cout << "Constructeur Combat : " << niveau << std::endl;
+    }
 
+    Combat::~Combat() {
+        std::cout << "Destructeur Combat : " << niveau << std::endl;
+    }
 
-//contructeur
-Combat::Combat(string niveau){
-    this-> niveau = niveau;
-}
+    std::string Combat::GetNiveau() const {
+        return niveau;
+    }
 
+    void Combat::SetCoinBleu(Boxeurs::Boxeur* boxeur) {
+        coinBleu = boxeur;
+    }
 
+    Boxeurs::Boxeur* Combat::GetCoinBleu() const {
+        return coinBleu;
+    }
 
+    void Combat::SetCoinRouge(Boxeurs::Boxeur* boxeur) {
+        coinRouge = boxeur;
+    }
 
-//setter
-string Combat::GetNiveau(){
-    return this->niveau;
-}
-void Combat::SetCoinBleu(Boxeurs::Boxeur* coinBleu){
-    this->coinBleu = coinBleu;
-}
-void Combat::SetCoinRouge(Boxeurs::Boxeur* coinRouge)
-{
-    this->coinRouge = coinRouge;
-}
+    Boxeurs::Boxeur* Combat::GetCoinRouge() const {
+        return coinRouge;
+    }
 
-
-
-
-
-
-//Destructeur
-Combat::~Combat(){
-    
-    cout << "Destructeur combat : " << this->niveau << endl;
-    
-}
-
-
-//verifier
-
-string Combats::Combat::VerifierCombat()
-{
-    string tmp= "le boxer est au niveau: " + this->niveau;
-   
-}
-
-
-}
+} // namespace Combat

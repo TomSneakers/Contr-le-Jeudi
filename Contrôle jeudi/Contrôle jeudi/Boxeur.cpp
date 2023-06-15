@@ -7,8 +7,8 @@
 
 #include "Boxeur.hpp"
 #include <iostream>
-#define TRACE
-
+//#define TRACE
+#include <string>
 using namespace std;
 namespace Boxeurs {
 
@@ -33,7 +33,7 @@ Boxeur::Boxeur(string nom, double poids) {
 #endif
     }
 
-    string Boxeur::GetNom()  {
+     string Boxeur::GetNom()  {
         return nom;
     }
 

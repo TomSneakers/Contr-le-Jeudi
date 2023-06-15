@@ -10,39 +10,30 @@
 #include <string>
 #include <stdio.h>
 #include "Boxeur.hpp"
-using namespace std;
-namespace Combats{
+
+#include <string>
+
+namespace Combats {
+
     class Combat {
     private:
         string niveau;
-        //Commencement de l'association
-        Boxeurs::Boxeur* coinBleu = nullptr;
-        Boxeurs::Boxeur* coinRouge = nullptr;
+        Boxeurs::Boxeur* coinBleu;
+        Boxeurs::Boxeur* coinRouge;
 
     public:
-        Combat(string niveau);
+        Combat(const string& _niveau);
         ~Combat();
-        string GetNiveau();
-        string VerifierCombat();
-        
-        //coins
-        Boxeurs::Boxeur* GetCoinBleu();
-        Boxeurs::Boxeur* GetCoinRouge();
-        
-        Combat* SetCombat(Combat* Combat);
-        Combat* SetBoxeur(Combat* Boxeur);
-        
-        //Setter
-        void SetCoinBleu(Boxeurs::Boxeur* boxeur);
-        void SetCoinRouge(Boxeurs::Boxeur* boxeur);
-        
-        //vainqueur
-        Boxeurs::Boxeur* GetVainqueur();
-        void DesignerVainqueur( Boxeurs::Boxeur* boxeur);
 
+        string GetNiveau() const;
+
+        void SetCoinBleu(Boxeurs::Boxeur* boxeur);
+        Boxeurs::Boxeur* GetCoinBleu() const;
+
+        void SetCoinRouge(Boxeurs::Boxeur* boxeur);
+        Boxeurs::Boxeur* GetCoinRouge() const;
     };
 
 }
 
-
-#endif /* Combat_hpp */
+#endif /* COMBAT_HPP */
