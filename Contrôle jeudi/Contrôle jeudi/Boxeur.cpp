@@ -7,15 +7,30 @@
 
 #include "Boxeur.hpp"
 #include <iostream>
+#define TRACE
+
 using namespace std;
-namespace Boxeur {
+namespace Boxeurs {
+
+
 //Constructeur
-Boxeur::Boxeur(const std::string& _nom, double _poids) : nom(_nom), poids(_poids) {
-        cout << "Constructeur Boxeur : " << nom << endl;
-    }
+Boxeur::Boxeur(const std::string& _nom, double _poids) {
+#ifdef TRACE
+    
+    this->nom = _nom;
+    this->poids = _poids;
+    cout << "Constructeur Boxeur : " << this->nom << endl;
+    
+#endif
+}
+
+
+
 // destructeur de Boxeur
     Boxeur::~Boxeur() {
+#ifdef TRACE
         cout << "Destructeur Boxeur : " << nom << endl;
+#endif
     }
 
     string Boxeur::GetNom() const {

@@ -7,18 +7,20 @@
 
 #include <iostream>
 #include "Boxeur.hpp"
-
-
+using namespace Boxeurs;
 using namespace std;
 int main() {
     cout <<"--DEBUT--" << endl<<endl;
     
-    Boxeur::Boxeur boxeur_1("Box_1", 75.0);
+    Boxeur boxeur_1("Box_1", 75.0);
     cout << "Adresse de boxeur_1 : " << &boxeur_1 << endl;
-    cout << "Nom de boxeur_1 : " << boxeur_1.GetNom() << std::endl;
-    cout << "Poids de boxeur_1 : " << boxeur_1.GetPoids() << " kg" << std::endl;
+    cout << "Nom de boxeur_1 : " << boxeur_1.GetNom() <<endl;
+    cout << "Poids de boxeur_1 : " << boxeur_1.GetPoids() << " kg" << endl << endl;
 
-    
+    Boxeur* boxeur_2;
+    boxeur_2 = new Boxeur("Box_2", 78.0);
+    cout << "Adresse de boxeur_2 : " << boxeur_2 << endl;
+    cout << "Nom de boxeur_2 : " << boxeur_2->GetNom() <<endl;
         
     cout << "--Fin--" << endl <<endl;
 

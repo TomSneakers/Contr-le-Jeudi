@@ -14,7 +14,7 @@
 
 #include <string>
 using namespace std;
-namespace Boxeur {
+namespace Boxeurs {
 
     class Boxeur {
     private:
