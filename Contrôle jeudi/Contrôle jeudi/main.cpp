@@ -22,7 +22,7 @@ int main() {
     cout << "Adresse de boxeur_2 : " << boxeur_2 << endl;
     cout << "Nom de boxeur_2 : " << boxeur_2->GetNom() <<endl;
         
-    
+    cout << "delete boxeur_2" << endl;
     delete boxeur_2;
     cout << "--Fin--" << endl <<endl;
 }

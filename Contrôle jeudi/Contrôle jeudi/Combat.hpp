@@ -18,7 +18,7 @@ namespace Combats{
     public:
         Combat(string niveau);
         ~Combat();
-        
+        string GetNiveau();
         
         //coins
         Boxeurs::Boxeur* GetCoinBleu();
