@@ -23,70 +23,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "E40C5D52-289D-44EB-BE2E-3ADEA5449660"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Contro&#x302;le jeudi/main.cpp"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
-            landmarkName = "main()"
-            landmarkType = "9">
-            <Locations>
-               <Location
-                  uuid = "E40C5D52-289D-44EB-BE2E-3ADEA5449660 - c695919a3ed3448f"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "main"
-                  moduleName = "Contro&#x302;le jeudi"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/tomdesvignes/Documents/RPI/Contro%CC%82le%20jeudi/Contro%CC%82le%20jeudi/Contro%CC%82le%20jeudi/main.cpp"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "35"
-                  endingLineNumber = "35"
-                  offsetFromSymbolStart = "948">
-               </Location>
-               <Location
-                  uuid = "E40C5D52-289D-44EB-BE2E-3ADEA5449660 - c695919a3ed3448f"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "main"
-                  moduleName = "Contro&#x302;le jeudi"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/tomdesvignes/Documents/RPI/Contro%CC%82le%20jeudi/Contro%CC%82le%20jeudi/Contro%CC%82le%20jeudi/main.cpp"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "35"
-                  endingLineNumber = "35"
-                  offsetFromSymbolStart = "748">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "DF3644B1-9A76-429D-B352-38CB108FB61C"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Contro&#x302;le jeudi/main.cpp"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
-            landmarkName = "main()"
-            landmarkType = "9">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "ABFE7DBE-CCF6-4F05-A57C-1B6D7E77FAFD"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -98,6 +34,22 @@
             endingLineNumber = "34"
             landmarkName = "Combat"
             landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4272D210-B1B9-4DAD-B719-83AA2E578299"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Contro&#x302;le jeudi/main.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "main()"
+            landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

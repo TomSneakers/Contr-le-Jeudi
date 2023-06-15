@@ -24,18 +24,18 @@ namespace Combats {
         Boxeurs::Boxeur* vainqueur;
 
     public:
-        Combat(const std::string& _niveau);
+        Combat(string _niveau);
         ~Combat();
 
-        std::string GetNiveau() const;
+        string GetNiveau();
 
         void SetCoinBleu(Boxeurs::Boxeur* boxeur);
-        Boxeurs::Boxeur* GetCoinBleu() const;
+        Boxeurs::Boxeur* GetCoinBleu();
 
         void SetCoinRouge(Boxeurs::Boxeur* boxeur);
-        Boxeurs::Boxeur* GetCoinRouge() const;
+        Boxeurs::Boxeur* GetCoinRouge();
 
-        Boxeurs::Boxeur* DesignerVainqueur(const string& couleurCoin);
+        Boxeurs::Boxeur* DesignerVainqueur(string couleurCoin);
     };
 
 }

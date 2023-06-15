@@ -25,7 +25,7 @@ namespace Boxeurs {
         Boxeur(string nom, double poids);
         ~Boxeur();
 
-        string GetNom() ;
+        const string& GetNom() ;
         double GetPoids() ;
         void SetPoids(double _poids);
     };

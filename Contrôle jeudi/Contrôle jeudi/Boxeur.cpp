@@ -15,10 +15,10 @@ namespace Boxeurs {
 
 //Constructeur
 Boxeur::Boxeur(string nom, double poids) {
-#ifdef TRACE
-    
     this->nom = nom;
     this->poids = poids;
+#ifdef TRACE
+    
     cout << "Constructeur Boxeur : " << this->nom << endl;
     
 #endif
@@ -33,7 +33,7 @@ Boxeur::Boxeur(string nom, double poids) {
 #endif
     }
 
-     string Boxeur::GetNom()  {
+     const string& Boxeur::GetNom()  {
         return nom;
     }
 
